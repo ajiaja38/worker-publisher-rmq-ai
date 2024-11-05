@@ -1,0 +1,24 @@
+{
+  "name": "worker-sending",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "winston": "^3.16.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5"
+  }
+}
