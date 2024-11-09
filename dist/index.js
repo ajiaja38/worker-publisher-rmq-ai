@@ -17,7 +17,7 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
     const payload = {
         guid: "2fbc9805-c3ed-4894-af8b-ad80c2f9aa74",
         guid_device: "CAM-P024",
-        value: "gajah3.jpg",
+        value: "gajah5.jpg",
         timestamp: 1730712382,
         datetime: "04-11-2024 16:26:21",
     };
