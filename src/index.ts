@@ -12,7 +12,7 @@ const main = async (): Promise<void> => {
     guid_device: "CAM-P077",
     value: "CAM-P077-bVB3UGwtc.jpg",
     timestamp: 1730712382,
-    datetime: "04-11-2024 16:26:21",
+    datetime: "04-11-2024 16:26:22",
   };
 
   channel.sendToQueue(
